@@ -43,3 +43,9 @@ https://coolors.co/1e2749-669bbc-a3d9ff-a5b8d3-bfd7ea
 ## Criação do Design da Página
 
 - AdobeXD!
+
+## Ferramentas
+
+1. Adobe XD;
+2. Visual Studio Code;
+3. Terminal;
