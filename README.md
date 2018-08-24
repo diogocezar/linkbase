@@ -90,20 +90,90 @@ https://www.flaticon.com/search?word=edit&style_id=11
 
 # Estrutura
 
-## Configuração do Ambiente
+## Configuração inicial
 
 * Criar um .editorconfig;
-* Criar uma página HTML de exemplo;
+    ```
+    root = true
+    [*]
+    end_of_line = lf
+    insert_final_newline = false
+    indent_style = tab
+    tab_width = 4
+    charset = utf-8
+    trim_trailing_whitespace = true
+    ```
+* Criar uma pasta de assets:
+    * css
+    * images
+    * fonts
+* Criar um favicon;
+    ```
+    <!-- Canonical -->
+    <link rel="canonical" href="https://diogocezar.github.io/linkbase"/>
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    ```
+* Criar uma og-image;
+* Criar as meta-tags:
+    * keywords;
+    * viewport;
+    * description;
+    * robots;
+    * og;
+    * twitter;
+    * Google+;
+    ```
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="keywords"            content=""/>
+    <meta name="viewport"            content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="description"         content=""/>
+    <meta name="robots"              content="index,follow"/>
+    <!-- OG -->
+    <meta property="og:url"          content="https://diogocezar.github.io/linkbase"/>
+    <meta property="og:title"        content=""/>
+    <meta property="og:site_name"    content=""/>
+    <meta property="og:description"  content="" />
+    <meta property="og:image"        content="https://diogocezar.github.io/linkbase/assets/images/linkbase.jpg" />
+    <meta property="og:type"         content="website" />
+    <!-- Twitter -->
+    <meta name="twitter:card"        content="summary_large_image"/>
+    <meta name="twitter:site"        content="https://diogocezar.github.io/linkbase"/>
+    <meta name="twitter:title"       content=""/>
+    <meta name="twitter:url"         content="https://diogocezar.github.io/linkbase"/>
+    <meta name="twitter:image"       content="https://diogocezar.github.io/linkbase/assets/images/linkbase.jpg"/>
+    <meta name="twitter:description" content="This is a little project to show combined HTML, CSS and JavaScript projects"/>
+    <!-- Google + -->
+    <meta itemprop="name"            content=""/>
+    <meta itemprop="description"     content="This is a little project to show combined HTML, CSS and JavaScript projects"/>
+    ```
+* Conceitos de Variáveis nativas no CSS;
+    * https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_variables
+* Criar estrutura de componentes CSS:
+    * /css/components/includes/reset.css
+        * https://necolas.github.io/normalize.css/8.0.0/normalize.css
+    * /css/components/includes/colors.css
+    * /css/components/includes/fonts.css
+        * https://fonts.google.com/?query=montse&selection.family=Montserrat
+        * ``` @import url('https://fonts.googleapis.com/css?family=Montserrat'); ```
+    * /css/components/components/nav.css
+    * /css/components/components/list.css
+    * /css/components/components/button-list.css
+    * /css/components/components/form.css
+    * /css/components/components/button-form.css
+    * /css/components/components/title.css
+    * /css/components/components/logo.css
+    * /css/components/components/sub-title.css
+    * /css/components/components/search.css
+    * /css/components/components/filter.css
+    * /css/components/components/footer.css
+    * /css/components/pages/index.css
+    * /css/components/pages/register.css
+* Criar a página index.html;
+    * Importar CSS's;
+    * Criar a estrutura HTML;
+* Criar a página register.html;
+    * Importar CSS's;
+    * Criar a estrutura HTML;
+* Utilizar o npm para criar um package;
 * Publicar Página no GitHub pages;
-* Preparar diretórios e pastas;
-
-# HTML
-
-* Criar a estrutura padrão para exibição dos elementos da página principal;
-* Criar a estrutura padrão para exibição dos elementos da página de cadastro;
-
-# CSS
-
-* Criar componentes separados, e aplicar os estilos apropriados;
-* Criar componentes de posicionalmento;
-* Refatorar todo o website;
