@@ -17,7 +17,7 @@ Vamos descrever as principais funcionalidades do sistema para armazenamento de l
     * Alterar Descrição;
     * Alterar Categoria;
     * Alterar Link;
-    * Altera  r Título;
+    * Altera  Título;
 
 3. Excluir Link
 
