@@ -92,7 +92,7 @@ https://www.flaticon.com/search?word=edit&style_id=11
 
 ## Configuração inicial
 
-* Criar um .editorconfig;
+* Criar um .editorconfig; [OK]
     ```
     root = true
     [*]
@@ -103,18 +103,18 @@ https://www.flaticon.com/search?word=edit&style_id=11
     charset = utf-8
     trim_trailing_whitespace = true
     ```
-* Criar uma pasta de assets:
+* Criar uma pasta de assets: [OK]
     * css
     * images
     * fonts
-* Criar um favicon;
+* Criar um favicon; [FAZER]
     ```
     <!-- Canonical -->
     <link rel="canonical" href="https://diogocezar.github.io/linkbase"/>
     <link rel="shortcut icon" href="assets/images/favicon.png">
     ```
-* Criar uma og-image;
-* Criar as meta-tags:
+* Criar uma og-image; [FAZER]
+* Criar as meta-tags: [OK]
     * keywords;
     * viewport;
     * description;
@@ -147,21 +147,22 @@ https://www.flaticon.com/search?word=edit&style_id=11
     <meta itemprop="name"            content=""/>
     <meta itemprop="description"     content="This is a little project to show combined HTML, CSS and JavaScript projects"/>
     ```
-* Conceitos de Variáveis nativas no CSS;
+* Criar robots.txt [OK]
+* Conceitos de Variáveis nativas no CSS; [OK]
     * https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_variables
 * Criar estrutura de componentes CSS:
-    * /css/components/includes/reset.css
+    * /css/components/includes/reset.css [OK]
         * https://necolas.github.io/normalize.css/8.0.0/normalize.css
-    * /css/components/includes/colors.css
-    * /css/components/includes/fonts.css
+    * /css/components/includes/colors.css [OK]
+    * /css/components/includes/fonts.css [OK]
         * https://fonts.google.com/?query=montse&selection.family=Montserrat
         * ``` @import url('https://fonts.googleapis.com/css?family=Montserrat'); ```
-    * /css/components/components/nav.css
-    * /css/components/components/list.css
-    * /css/components/components/button-list.css
-    * /css/components/components/form.css
-    * /css/components/components/button-form.css
-    * /css/components/components/title.css
+    * /css/components/components/nav.css [OK]
+    * /css/components/components/list.css [OK]
+    * /css/components/components/button-list.css [OK]
+    * /css/components/components/form.css [OK]
+    * /css/components/components/button-form.css [OK]
+    * /css/components/components/title.css [OK]
     * /css/components/components/logo.css
     * /css/components/components/sub-title.css
     * /css/components/components/search.css
