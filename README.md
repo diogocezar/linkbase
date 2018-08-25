@@ -107,13 +107,14 @@ https://www.flaticon.com/search?word=edit&style_id=11
     * css
     * images
     * fonts
-* Criar um favicon; [FAZER]
+* Criar um favicon; [OK]
     ```
     <!-- Canonical -->
     <link rel="canonical" href="https://diogocezar.github.io/linkbase"/>
+	<!-- FavIcon -->
     <link rel="shortcut icon" href="assets/images/favicon.png">
     ```
-* Criar uma og-image; [FAZER]
+* Criar uma og-image; [OK]
 * Criar as meta-tags: [OK]
     * keywords;
     * viewport;
@@ -163,14 +164,14 @@ https://www.flaticon.com/search?word=edit&style_id=11
     * /css/components/components/form.css [OK]
     * /css/components/components/button-form.css [OK]
     * /css/components/components/title.css [OK]
-    * /css/components/components/logo.css
-    * /css/components/components/sub-title.css
-    * /css/components/components/search.css
-    * /css/components/components/filter.css
-    * /css/components/components/footer.css
-    * /css/components/pages/index.css
-    * /css/components/pages/register.css
-* Criar a página index.html;
+    * /css/components/components/logo.css [OK]
+    * /css/components/components/sub-title.css [OK]
+    * /css/components/components/search.css [OK]
+    * /css/components/components/filter.css [OK]
+    * /css/components/components/footer.css [OK]
+    * /css/components/pages/index.css [OK]
+    * /css/components/pages/register.css [OK]
+* Criar a página index.html; [OK]
     * Importar CSS's;
     * Criar a estrutura HTML;
 * Criar a página register.html;
