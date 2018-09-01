@@ -172,10 +172,10 @@ https://www.flaticon.com/search?word=edit&style_id=11
     * /css/components/pages/index.css [OK]
     * /css/components/pages/register.css [OK]
 * Criar a página index.html; [OK]
-    * Importar CSS's;
-    * Criar a estrutura HTML;
-* Criar a página register.html;
-    * Importar CSS's;
-    * Criar a estrutura HTML;
+    * Importar CSS's; [OK]
+    * Criar a estrutura HTML; [OK]
+* Criar a página register.html; [OK]
+    * Importar CSS's; [OK]
+    * Criar a estrutura HTML; [OK]
 * Utilizar o npm para criar um package;
 * Publicar Página no GitHub pages;

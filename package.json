@@ -1,0 +1,38 @@
+{
+  "name": "linkbase",
+  "version": "1.0.0",
+  "description": "Este é um projeto desenvolvido em conjunto com a turma 2018/2 da disciplina Programção Web 1 da UTFPR.",
+  "main": "index.html",
+  "scripts": {
+	  "start" : "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogocezar/linkbase.git"
+  },
+  "keywords": [
+    "links",
+    "repositório",
+    "favoritos",
+    "consulta",
+    "acesso",
+    "banco",
+    "de",
+    "links",
+    "organização",
+    "de",
+    "links",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Diogo Cezar <diogo@diogocezar.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogocezar/linkbase/issues"
+  },
+  "homepage": "https://github.com/diogocezar/linkbase#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

@@ -44,7 +44,7 @@
 		<link rel="stylesheet" href="./assets/css/components/list.css">
 		<!-- Index -->
 		<link rel="stylesheet" href="./assets/css/pages/index.css">
-		<title>LinkBase - Nunca mais perca um link!</title>
+		<title>LinkBase - Cadastrar Novo</title>
 	</head>
 	<body>
 		<!-- Header -->
@@ -61,83 +61,28 @@
 		<section id="welcome-generic">
 			<div class="container">
 				<img src="./assets/images/linkbase-logo.svg" alt="Logo do LinkBase">
-				<p>Olá, bem vindo ao sistema de armazenamento de links! Você pode selecionar uma categoria, ou digitar um termo para ser localizado nos links cadastrados.</p>
+				<p>Cadastre um novo Link para nunca mais esquecê-lo!</p>
 			</div>
 		</section>
-		<!-- Filter -->
-		<section id="filter-home">
+		<!-- Register -->
+		<section id="register">
 			<div class="container">
-				<div class="filter-box">
-					<input type="text" id="filter" placeHolder="O que você procura hoje?" />
-					<button id="filter-button"></button>
-				</div>
-			</div>
-		</section>
-		<!-- Title -->
-		<section id="title-home">
-			<div class="container">
-				<h2>Aqui estão os últimos 10 links cadastrados!</h2>
-			</div>
-		</section>
-		<!-- Filter Categories -->
-		<section id="filter-categories-home">
-			<div class="container">
-				<h4>Filtrar por categoria</h4>
-				<ul>
-					<li>Categoria</li>
-					<li>Categoria</li>
-					<li>Categoria</li>
-					<li>Categoria</li>
-					<li>Categoria</li>
-					<li>Categoria</li>
-					<li>Categoria</li>
-					<li>Categoria</li>
-				</ul>
-			</div>
-		</section>
-		<!-- List -->
-		<section id="list-home">
-			<div class="container">
-				<div class="list-item">
-					<h2>Título de um Link</h2>
-					<a href="#">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna
-						eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-					<button class="btn-edit">Editar</button>
-					<button class="btn-remove">Remover</button>
-				</div>
-				<div class="list-item">
-					<h2>Título de um Link</h2>
-					<a href="#">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna
-						eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-					<button class="btn-edit">Editar</button>
-					<button class="btn-remove">Remover</button>
-				</div>
-				<div class="list-item">
-					<h2>Título de um Link</h2>
-					<a href="#">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna
-						eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-					<button class="btn-edit">Editar</button>
-					<button class="btn-remove">Remover</button>
-				</div>
-				<div class="list-item">
-					<h2>Título de um Link</h2>
-					<a href="#">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna
-						eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-					<button class="btn-edit">Editar</button>
-					<button class="btn-remove">Remover</button>
-				</div>
-				<div class="list-item">
-					<h2>Título de um Link</h2>
-					<a href="#">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna
-						eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-					<button class="btn-edit">Editar</button>
-					<button class="btn-remove">Remover</button>
-				</div>
+				<h2>Cadastrar</h2>
+				<form>
+					<input type="text" placeHolder="Título" id="title" />
+					<input type="text" placeHolder="Link" id="link" />
+					<select id="categorie">
+						<option value="-1">Selecione a categoria</option>
+						<option value="1">Categoria</option>
+						<option value="2">Categoria</option>
+						<option value="3">Categoria</option>
+						<option value="4">Categoria</option>
+						<option value="5">Categoria</option>
+					</select>
+					<textarea placeHolder="Descrição"></textarea>
+					<button id="btn-cancel">Cancelar</button>
+					<button id="btn-save">Save</button>
+				</form>
 			</div>
 		</section>
 		<!-- Footer -->
