@@ -158,24 +158,18 @@ https://www.flaticon.com/search?word=edit&style_id=11
     * /css/components/includes/fonts.css [OK]
         * https://fonts.google.com/?query=montse&selection.family=Montserrat
         * ``` @import url('https://fonts.googleapis.com/css?family=Montserrat'); ```
-    * /css/components/components/nav.css [OK]
-    * /css/components/components/list.css [OK]
-    * /css/components/components/button-list.css [OK]
-    * /css/components/components/form.css [OK]
-    * /css/components/components/button-form.css [OK]
-    * /css/components/components/title.css [OK]
-    * /css/components/components/logo.css [OK]
-    * /css/components/components/sub-title.css [OK]
-    * /css/components/components/search.css [OK]
-    * /css/components/components/filter.css [OK]
-    * /css/components/components/footer.css [OK]
-    * /css/components/pages/index.css [OK]
-    * /css/components/pages/register.css [OK]
+	* Demais Componentes; [OK]
 * Criar a página index.html; [OK]
     * Importar CSS's; [OK]
     * Criar a estrutura HTML; [OK]
 * Criar a página register.html; [OK]
     * Importar CSS's; [OK]
     * Criar a estrutura HTML; [OK]
-* Utilizar o npm para criar um package;
+* Utilizar o npm para criar um package; [OK]
+
+## Desenvolver os CSS
+
 * Publicar Página no GitHub pages;
+* Index.html
+* Register.html
+	* Desenvolver para cada componente o layout correspondente do design;

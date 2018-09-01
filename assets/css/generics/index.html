@@ -4,8 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- Meta Tags -->
-		<meta name="keywords" content="links, repositório, favoritos, consulta, acesso, banco de links,organização de links, html, css, js"
-		/>
+		<meta name="keywords" content="links, repositório, favoritos, consulta, acesso, banco de links,organização de links, html, css, js" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="Bem vindo ao LinkBase, um sistema para gerenciar os seus links favoritos." />
 		<meta name="robots" content="index,follow" />
@@ -36,15 +35,19 @@
 		<link rel="stylesheet" href="./assets/css/includes/colors.css">
 		<!-- Fonts -->
 		<link rel="stylesheet" href="./assets/css/includes/fonts.css">
+		<!-- Generics -->
+		<link rel="stylesheet" href="./assets/css/generics/generics.css">
 		<!-- Shared Components -->
 		<link rel="stylesheet" href="./assets/css/generics/generic-header.css">
 		<link rel="stylesheet" href="./assets/css/generics/generic-footer.css">
 		<link rel="stylesheet" href="./assets/css/generics/generic-welcome.css">
 		<!-- Page Components -->
-		<link rel="stylesheet" href="./assets/css/components/register-form.css">
-		<title>LinkBase - Cadastrar Novo</title>
+		<link rel="stylesheet" href="./assets/css/components/index-filter.css">
+		<link rel="stylesheet" href="./assets/css/components/index-title.css">
+		<link rel="stylesheet" href="./assets/css/components/index-categories.css">
+		<link rel="stylesheet" href="./assets/css/components/index-list.css">
+		<title>LinkBase - Nunca mais perca um link!</title>
 	</head>
-
 	<body>
 		<!-- Header -->
 		<header>
@@ -56,32 +59,32 @@
 				</ul>
 			</nav>
 		</header>
-		<!-- Generic Welcome -->
+		<!-- Welcome -->
 		<section id="generic-welcome">
 			<div class="container">
 				<img src="./assets/images/linkbase-logo.svg" alt="Logo do LinkBase">
-				<p>Cadastre um novo Link para nunca mais esquecê-lo!</p>
+				<p>Olá, bem vindo ao sistema de armazenamento de links! Você pode selecionar uma categoria, ou digitar um termo para ser localizado nos links cadastrados.</p>
 			</div>
 		</section>
-		<!-- Index Filter -->
-		<section id="index-filter">
+		<!-- Filter -->
+		<section id="filter-index">
 			<div class="container">
-				<div class="boxfilter">
-					<input type="text" id="filter"/ placeHolder="O que você procura hoje?">
-					<button id="btn-filter"></button>
+				<div class="filter-box">
+					<input type="text" id="filter" placeHolder="O que você procura hoje?" />
+					<button id="filter-button"></button>
 				</div>
 			</div>
 		</section>
-		<!-- Index Title -->
-		<section id="index-title">
+		<!-- Title -->
+		<section id="title-index">
 			<div class="container">
 				<h2>Aqui estão os últimos 10 links cadastrados!</h2>
 			</div>
 		</section>
-		<!-- Index Categories-->
-		<section id="index-categories">
+		<!-- Filter Categories -->
+		<section id="categories-index">
 			<div class="container">
-				<h2>Filtar Por Categorias</h2>
+				<h4>Filtrar por categoria</h4>
 				<ul>
 					<li>Categoria</li>
 					<li>Categoria</li>
@@ -94,48 +97,48 @@
 				</ul>
 			</div>
 		</section>
-		<!-- Index List -->
-		<section id="index-list">
+		<!-- List -->
+		<section id="list-index">
 			<div class="container">
-				<div class="boxitem">
+				<div class="list-item">
 					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<a href="#">http://www.link.com.br</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna
+						eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<button class="btn-edit">Editar</button>
+					<button class="btn-remove">Remover</button>
 				</div>
-				<div class="boxitem">
+				<div class="list-item">
 					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<a href="#">http://www.link.com.br</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna
+						eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<button class="btn-edit">Editar</button>
+					<button class="btn-remove">Remover</button>
 				</div>
-				<div class="boxitem">
+				<div class="list-item">
 					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<a href="#">http://www.link.com.br</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna
+						eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<button class="btn-edit">Editar</button>
+					<button class="btn-remove">Remover</button>
 				</div>
-				<div class="boxitem">
+				<div class="list-item">
 					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<a href="#">http://www.link.com.br</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna
+						eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<button class="btn-edit">Editar</button>
+					<button class="btn-remove">Remover</button>
 				</div>
-				<div class="boxitem">
+				<div class="list-item">
 					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-				</div>
-				<div class="boxitem">
-					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-				</div>
-				<div class="boxitem">
-					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-				</div>
-				<div class="boxitem">
-					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<a href="#">http://www.link.com.br</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna
+						eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<button class="btn-edit">Editar</button>
+					<button class="btn-remove">Remover</button>
 				</div>
 			</div>
 		</section>
