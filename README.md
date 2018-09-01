@@ -167,9 +167,10 @@ https://www.flaticon.com/search?word=edit&style_id=11
     * Criar a estrutura HTML; [OK]
 * Utilizar o npm para criar um package; [OK]
 
-## Desenvolver os CSS
+## Publicar Página no GitHub Pages
 
 * Publicar Página no GitHub pages;
-* Index.html
-* Register.html
-	* Desenvolver para cada componente o layout correspondente do design;
+
+## Desenvolver CSS
+
+* Desenvolver para cada componente o layout correspondente do design definido;
