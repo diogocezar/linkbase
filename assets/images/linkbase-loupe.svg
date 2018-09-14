@@ -1,0 +1,27 @@
+<svg id="loupe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.636 33.631">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <g id="XMLID_105_" transform="translate(14.189 2.41)">
+    <path id="Path_52" data-name="Path 52" class="cls-1" d="M215.216,52.18a8.516,8.516,0,1,1,6.024-2.491h0A8.493,8.493,0,0,1,215.216,52.18Zm0-15.985A7.469,7.469,0,1,0,220.5,38.38,7.449,7.449,0,0,0,215.216,36.195Z" transform="translate(-206.7 -35.148)"/>
+  </g>
+  <g id="XMLID_457_" transform="translate(11.779 0)">
+    <path id="Path_53" data-name="Path 53" class="cls-1" d="M182.513,21.89a10.923,10.923,0,1,1,7.73-3.2h0A10.9,10.9,0,0,1,182.513,21.89Zm0-20.806A9.882,9.882,0,1,0,189.5,17.953h0a9.88,9.88,0,0,0-6.989-16.869Z" transform="translate(-171.587 -0.038)"/>
+  </g>
+  <g id="XMLID_573_" transform="translate(0 21.948)">
+    <path id="Path_54" data-name="Path 54" class="cls-1" d="M2.513,331.456,0,328.942l9.169-9.169,2.513,2.513Zm-1.032-2.513,1.032,1.033,7.689-7.689-1.033-1.032Z" transform="translate(0 -319.773)"/>
+  </g>
+  <g id="XMLID_578_" transform="translate(10.318 18.633)">
+    <rect id="Rectangle_32" data-name="Rectangle 32" class="cls-1" width="1.047" height="5.573" transform="translate(3.941) rotate(45)"/>
+  </g>
+  <g id="XMLID_624_" transform="translate(20.471 15.475)">
+    <path id="Path_55" data-name="Path 55" class="cls-1" d="M299.364,226.783a5.934,5.934,0,0,1-1.147-.335l.394-.97a4.868,4.868,0,0,0,.944.275Z" transform="translate(-298.217 -225.478)"/>
+  </g>
+  <g id="XMLID_593_" transform="translate(22.516 10.568)">
+    <path id="Path_56" data-name="Path 56" class="cls-1" d="M328,160.308v-1.047A5.11,5.11,0,0,0,333.1,154h1.047A6.236,6.236,0,0,1,328,160.308Z" transform="translate(-328.003 -153.997)"/>
+  </g>
+</svg>
