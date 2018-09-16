@@ -4,3 +4,46 @@
  * https://github.com/diogocezar/linkbase
  * Page Welcome Component
  */
+
+#generic-welcome{
+	margin-top: var(--spacer-4);
+}
+
+#generic-welcome > .container{
+	text-align: center;
+}
+
+#generic-welcome > .container > img{
+	width: 375px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#generic-welcome > .container > p{
+	margin-top: 35px;
+	font-size: 1rem;
+	line-height: 1.7rem;
+	padding: 0 var(--spacer-padding);
+}
+
+#generic-welcome > .container > p > span{
+	font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+	#generic-welcome > .container > img{
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	#generic-welcome > .container > img{
+		width: 275px;
+	}
+}
+
+@media screen and (max-width: 420px){
+	#generic-welcome > .container > img{
+		width: 180px;
+	}
+}

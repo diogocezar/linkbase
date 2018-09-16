@@ -1,0 +1,30 @@
+/**
+ * LinkBase
+ * Diogo Cezar <diogo@diogocezar.com>
+ * https://github.com/diogocezar/linkbase
+ * Sizes Definitions
+ */
+
+:root {
+	--spacer-1: 30px;
+	--spacer-2: 40px;
+	--spacer-3: 50px;
+	--spacer-4: 60px;
+	--spacer-padding: 20%;
+}
+
+@media screen and (max-width: 768px){
+	:root {
+		--spacer-padding: 10%;
+	}
+}
+
+@media screen and (max-width: 420px){
+	:root {
+		--spacer-padding: 0;
+		--spacer-1: 10px;
+		--spacer-2: 20px;
+		--spacer-3: 25px;
+		--spacer-4: 30px;
+	}
+}

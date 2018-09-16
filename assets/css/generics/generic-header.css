@@ -4,3 +4,54 @@
  * https://github.com/diogocezar/linkbase
  * Page Header Component
  */
+
+header{
+	height: 65px;
+	background-color: var(--dark-blue);
+}
+
+header > .container{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header #logo-header{
+	height: 45px;
+}
+
+header nav ul{
+	display: flex;
+}
+
+header nav ul li {
+	list-style: none;
+	padding: 3px 0px;
+}
+
+header nav ul li.active{
+	border-bottom: 2px solid var(--light-blue);
+}
+
+header nav ul li:first-child{
+	margin-right: 20px;
+}
+
+header nav ul li a{
+	color: var(--white);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 420px){
+	header{
+		height: 60px;
+	}
+	header #logo-header{
+		height: 35px;
+	}
+	header nav ul li {
+		font-size: 0.9rem;
+	}
+}

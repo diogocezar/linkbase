@@ -4,3 +4,18 @@
  * https://github.com/diogocezar/linkbase
  * Filter component
  */
+
+#index-title{
+	margin-top: var(--spacer-1);
+	margin-bottom: var(--spacer-1);
+}
+
+#index-title > .container{
+	text-align: center;
+}
+
+#index-title > .container > h2{
+	color: var(--light-blue);
+	font-size: 2rem;
+	padding: 0 var(--spacer-padding);
+}

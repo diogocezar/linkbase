@@ -4,3 +4,79 @@
  * https://github.com/diogocezar/linkbase
  * Logo Component
  */
+
+
+#index-list{
+	margin-top: var(--spacer-2);
+}
+
+#index-list > .container > .boxitem{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#index-list > .container > .boxitem > h2{
+	font-size: 1.5rem;
+	color: var(--dark-blue);
+}
+
+#index-list > .container > .boxitem > a{
+	font-size: 1.2rem;
+	color: var(--light-blue);
+}
+
+#index-list > .container > .boxitem > p{
+	font-size: 0.9rem;
+	line-height: 1.6rem;
+	margin-bottom: 30px;
+}
+
+#index-list > .container > .boxitem > .boxcontrols{
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-bottom: var(--spacer-2);
+}
+
+#index-list > .container > .boxitem > .boxcontrols > button{
+	background-color: var(--light-blue);
+	padding: 10px 15px;
+	border-radius: 30px;
+	min-width: 140px;
+	border:none;
+	line-height: 20px;
+	cursor: pointer;
+	color: var(--white);
+	text-transform: uppercase;
+	position: relative;
+	text-indent: 10px;
+}
+
+#index-list > .container > .boxitem > .boxcontrols > button:before{
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	margin-right: 10px;
+	position: absolute;
+	left: 10px;
+}
+
+#index-list > .container > .boxitem > .boxcontrols > button.btn-edit:before{
+	content: url('../../images/linkbase-edit.svg');
+}
+
+#index-list > .container > .boxitem > .boxcontrols > button.btn-delete:before{
+	content: url('../../images/linkbase-delete.svg');
+}
+
+@media screen and (max-width: 768px){
+	#index-list > .container > .boxitem{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 420px){
+	#index-list > .container > .boxitem > .boxcontrols > button{
+		width: calc(50% - 5px);
+	}
+}

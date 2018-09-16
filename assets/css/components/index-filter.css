@@ -4,3 +4,79 @@
  * https://github.com/diogocezar/linkbase
  * Buttons of List Component
  */
+
+#index-filter{
+	margin-top: 40px;
+}
+
+#index-filter > .container{
+	text-align: center;
+}
+
+#index-filter > .container > .boxfilter{
+	display: inline-block;
+	width: 400px;
+	position: relative;
+}
+
+#index-filter > .container > .boxfilter > input::placeholder{
+	color: var(--white);
+}
+
+#index-filter > .container > .boxfilter > input{
+	padding: 25px;
+	border: none;
+	color: var(--white);
+	background-color: var(--light-blue);
+	border-radius: 40px;
+	width: 100%;
+	font-size: 1.2rem;
+}
+
+#index-filter > .container > .boxfilter > button{
+	background-image: url('../../images/linkbase-loupe.svg');
+	background-color: transparent;
+	border: none;
+	height: 32px;
+	width: 32px;
+	position: absolute;
+	right: 20px;
+	top: 18px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+	#index-filter > .container > .boxfilter{
+		width: 100%;
+	}
+	#index-filter > .container > .boxfilter > input{
+		padding: 25px;
+		position: relative;
+		float: left;
+		width: calc(100vw - 60px);
+	}
+}
+
+@media screen and (max-width: 420px){
+	#index-filter > .container > .boxfilter{
+		width: 100%;
+	}
+	#index-filter > .container > .boxfilter > input{
+		padding: 20px;
+		position: relative;
+		float: left;
+		width: 100%;
+		font-size: 1rem;
+	}
+	#index-filter > .container > .boxfilter > button{
+		background-image: url('../../images/linkbase-loupe.svg');
+		background-color: transparent;
+		border: none;
+		height: 24px;
+		width: 24px;
+		position: absolute;
+		right: 20px;
+		top: 16px;
+		cursor: pointer;
+	}
+}

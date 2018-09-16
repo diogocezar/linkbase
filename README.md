@@ -169,7 +169,7 @@ https://www.flaticon.com/search?word=edit&style_id=11
 
 ## Desenvolver CSS
 
-* Desenvolver para cada componente o layout correspondente do design definido;
+* Desenvolver para cada componente o layout correspondente do design definido; [OK]
 * Criar animações;
 
 ## Publicar Página no GitHub Pages

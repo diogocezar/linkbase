@@ -4,3 +4,131 @@
  * https://github.com/diogocezar/linkbase
  * Register Form Component
  */
+
+#register-form{
+	margin-top: var(--spacer-1);
+}
+
+#register-form > .container{
+	text-align: center;
+}
+
+#register-form > .container > h2{
+	color: var(--dark-blue);
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	padding: 0 var(--spacer-padding);
+	margin-bottom: var(--spacer-3);
+}
+
+#register-form > .container > form{
+	position: relative;
+	max-width: 500px;
+	display: inline-block;
+}
+
+#register-form > .container > form > input::placeholder,
+#register-form > .container > form > select::placeholder,
+#register-form > .container > form > textarea::placeholder{
+	color: var(--white);
+}
+
+#register-form > .container > form > input,
+#register-form > .container > form > select,
+#register-form > .container > form > textarea{
+	padding: 25px;
+	border: none;
+	color: var(--white);
+	background-color: var(--light-blue);
+	border-radius: 40px;
+	width: 100%;
+	font-size: 1.2rem;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	height: 60px;
+}
+
+#register-form > .container > form > select{
+	-webkit-appearance: none;
+	appearance: none;
+	height: 60px;
+	padding: 0px 20px;
+}
+
+#register-form > .container > form > select:after{
+	content: '';
+
+}
+
+#register-form > .container > form > textarea{
+	height: 150px;
+	resize: none;
+	margin-bottom: var(--spacer-1);
+	border-radius: 20px;
+}
+
+#register-form > .container > form > button{
+	background-color: var(--light-blue);
+	padding: 10px 15px;
+	border-radius: 30px;
+	min-width: 200px;
+	height: 60px;
+	border:none;
+	line-height: 20px;
+	cursor: pointer;
+	color: var(--white);
+	text-transform: uppercase;
+	position: relative;
+	text-indent: 10px;
+}
+
+#register-form > .container > form > button.btn-save{
+	background-color: var(--dark-blue);
+	margin-right: 10px;
+}
+
+#register-form > .container > form > button:before{
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	margin-right: 10px;
+	position: absolute;
+}
+
+#register-form > .container > form > button.btn-save:before{
+	content: url('../../images/linkbase-save.svg');
+	left: 12px;
+    top: 19px;
+}
+
+#register-form > .container > form > button.btn-cancel:before{
+	content: url('../../images/linkbase-cancel.svg');
+	height: 22px;
+	width: 22px;
+	top: 19px;
+	left: 12px;
+}
+
+@media screen and (max-width: 420px){
+	#register-form > .container > form > button{
+		min-width: 100%;
+		margin-bottom: 10px;
+		height: 50px;
+	}
+	#register-form > .container > form > input,
+	#register-form > .container > form > select,
+	#register-form > .container > form > textarea{
+		padding: 20px;
+		font-size: 1rem;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+		height: 50px;
+		border-radius: 40px;
+	}
+	#register-form > .container > form > select{
+		-webkit-appearance: none;
+		appearance: none;
+		height: 50px;
+		padding: 0px 20px;
+	}
+}

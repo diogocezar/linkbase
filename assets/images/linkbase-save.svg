@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 20.107">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <g id="check" transform="translate(0 -50.106)">
+    <g id="Group_41" data-name="Group 41" transform="translate(0 50.106)">
+      <g id="Group_40" data-name="Group 40">
+        <path id="Path_66" data-name="Path 66" class="cls-1" d="M20.853,50.106,9.04,61.92,4.147,57.026,0,61.173l9.04,9.04L25,54.253ZM1.08,61.173l3.067-3.067L9.04,63,20.853,51.186l3.067,3.067L9.04,69.133Z" transform="translate(0 -50.106)"/>
+      </g>
+    </g>
+    <g id="Group_43" data-name="Group 43" transform="translate(7.966 65.386)">
+      <g id="Group_42" data-name="Group 42">
+        <path id="Path_67" data-name="Path 67" class="cls-1" d="M166.227,363.04l-2.048,2.048-.5-.5-.54.54,1.042,1.043,2.588-2.588Z" transform="translate(-163.137 -363.04)"/>
+      </g>
+    </g>
+    <g id="Group_45" data-name="Group 45" transform="translate(11.442 64.227)">
+      <g id="Group_44" data-name="Group 44" transform="translate(0 0)">
+        <rect id="Rectangle_40" data-name="Rectangle 40" class="cls-1" width="1.093" height="0.763" transform="translate(0 0.773) rotate(-45)"/>
+      </g>
+    </g>
+  </g>
+</svg>

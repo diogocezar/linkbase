@@ -4,3 +4,42 @@
  * https://github.com/diogocezar/linkbase
  * List of Links Component
  */
+
+#index-categories > .container{
+	text-align: center;
+}
+
+#index-categories > .container > h2{
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin-bottom: var(--spacer-1);
+}
+
+#index-categories > .container > ul{
+	position: relative;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 400px;
+	padding: 0;
+	margin: 0;
+}
+
+#index-categories > .container > ul > li{
+	list-style: none;
+	background-color: var(--dark-blue);
+	padding: 10px 15px;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	color: var(--white);
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+	#index-categories > .container > ul{
+		width: 100%;
+	}
+}

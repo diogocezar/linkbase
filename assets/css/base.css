@@ -3,3 +3,44 @@
  * Diogo Cezar <diogo@diogocezar.com>
  * Componente Utilizado como Base em Todas as Páginas
  */
+
+*{
+	outline: none;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 14px;
+}
+
+body{
+	font-family: var(--font-primary);
+	background-image: url('../images/linkbase-bg.png');
+}
+
+section{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+@media screen and (max-width: 1024px){
+	.container{
+		width:calc(100% - 30px);
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media screen and (max-width: 420px){
+	.container{
+		width:calc(100% - 10px);
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}

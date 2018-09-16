@@ -4,3 +4,34 @@
  * https://github.com/diogocezar/linkbase
  * Page Footer Component
  */
+
+footer{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: var(--spacer-2);
+	background-color: var(--dark-blue);
+	color: var(--white);
+}
+
+footer img{
+	height: 50px;
+	margin-top: var(--spacer-2);
+	margin-bottom: var(--spacer-1);
+}
+
+footer p span{
+	color: var(--light-blue);
+}
+
+footer p a{
+	text-decoration: underline;
+	color: var(--white);
+}
+
+@media screen and (max-width: 420px){
+	footer p {
+		font-size: 0.9rem;
+	}
+}

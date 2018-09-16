@@ -34,6 +34,10 @@
 		<link rel="stylesheet" href="./assets/css/includes/reset.css">
 		<!-- Colors -->
 		<link rel="stylesheet" href="./assets/css/includes/colors.css">
+		<!-- Sizes -->
+		<link rel="stylesheet" href="./assets/css/includes/sizes.css">
+		<!-- Base -->
+		<link rel="stylesheet" href="./assets/css/base.css">
 		<!-- Fonts -->
 		<link rel="stylesheet" href="./assets/css/includes/fonts.css">
 		<!-- Shared Components -->
@@ -51,19 +55,21 @@
 	<body>
 		<!-- Header -->
 		<header>
-			<img id="logo-header" src="./assets/images/linkbase-logo-header.svg" alt="Logotipo do LinkBase do Header" />
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Cadastrar</a></li>
-				</ul>
-			</nav>
+			<div class="container">
+				<a href="index.html"><img id="logo-header" src="./assets/images/linkbase-logo-header.svg" alt="Logotipo do LinkBase do Header" /></a>
+				<nav>
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="register.html">Cadastrar</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 		<!-- Generic Welcome -->
 		<section id="generic-welcome">
 			<div class="container">
 				<img src="./assets/images/linkbase-logo.svg" alt="Logo do LinkBase">
-				<p>Cadastre um novo Link para nunca mais esquecê-lo!</p>
+				<p>Olá, bem vindo ao sistema de armazenamento de links! Você pode <span>selecionar</span> uma categoria, ou <span>digitar</span> um termo para ser localizado nos links cadastrados.</p>
 			</div>
 		</section>
 		<!-- Index Filter -->
@@ -94,6 +100,7 @@
 					<li>Categoria</li>
 					<li>Categoria</li>
 					<li>Categoria</li>
+					<li>Categoria</li>
 				</ul>
 			</div>
 		</section>
@@ -104,50 +111,39 @@
 					<h2>Título de um Link</h2>
 					<a href="#!">http://www.link.com.br</a>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<div class="boxcontrols">
+						<button class="btn-edit">Editar</button>
+						<button class="btn-delete">Excluir</button>
+					</div>
 				</div>
 				<div class="boxitem">
 					<h2>Título de um Link</h2>
 					<a href="#!">http://www.link.com.br</a>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<div class="boxcontrols">
+						<button class="btn-edit">Editar</button>
+						<button class="btn-delete">Excluir</button>
+					</div>
 				</div>
 				<div class="boxitem">
 					<h2>Título de um Link</h2>
 					<a href="#!">http://www.link.com.br</a>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-				</div>
-				<div class="boxitem">
-					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-				</div>
-				<div class="boxitem">
-					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-				</div>
-				<div class="boxitem">
-					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-				</div>
-				<div class="boxitem">
-					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
-				</div>
-				<div class="boxitem">
-					<h2>Título de um Link</h2>
-					<a href="#!">http://www.link.com.br</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas dui et massa accumsan vehicula. Ut semper magna eu ligula viverra rhoncus. Etiam non felis aliquam, egestas neque at, porttitor ex.</p>
+					<div class="boxcontrols">
+						<button class="btn-edit">Editar</button>
+						<button class="btn-delete">Excluir</button>
+					</div>
 				</div>
 			</div>
 		</section>
 		<!-- Footer -->
 		<footer>
-			<img id="logo-footer" src="./assets/images/linkbase-logo-footer.svg" alt="Logotipo do LinkBase do Footer" />
-			<p>Sistema desenvolvido na disciplina de Programação Web 1</p>
-			<p>UTFPR - Campus Cornélio Procópio</p>
-			<p>Professor Diogo Cezar</p>
+			<div class="container">
+				<a href="index.html"><img id="logo-footer" src="./assets/images/linkbase-logo-footer.svg" alt="Logotipo do LinkBase do Footer" /></a>
+				<p>Sistema desenvolvido na disciplina de <span>Programação Web 1</span></p>
+				<p><span>UTFPR</span> - Campus Cornélio Procópio</p>
+				<p>Professor <a href="https://www.diogocezar.com" target="_blank">Diogo Cezar</a></p>
+			</div>
 		</footer>
 	</body>
 </html>
