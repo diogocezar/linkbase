@@ -4,7 +4,7 @@
   "description": "Este é um projeto desenvolvido em conjunto com a turma 2018/2 da disciplina Programção Web 1 da UTFPR.",
   "main": "index.html",
   "scripts": {
-	  "start" : "http-server ."
+    "start": "concurrently \"json-server ./database/database.json\" \"http-server .\""
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,8 @@
   },
   "homepage": "https://github.com/diogocezar/linkbase#readme",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "concurrently": "^4.0.1",
+    "http-server": "^0.11.1",
+    "json-server": "^0.14.0"
   }
 }

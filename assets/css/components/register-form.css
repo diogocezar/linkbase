@@ -80,11 +80,16 @@
 	text-transform: uppercase;
 	position: relative;
 	text-indent: 10px;
+	transition: 0.15s all linear;
 }
 
 #register-form > .container > form > button.btn-save{
 	background-color: var(--dark-blue);
 	margin-right: 10px;
+}
+
+#register-form > .container > form > button.btn-save:hover{
+	background-color: var(--light-blue);
 }
 
 #register-form > .container > form > button:before{
@@ -107,6 +112,10 @@
 	width: 22px;
 	top: 19px;
 	left: 12px;
+}
+
+#register-form > .container > form > button.btn-cancel:hover{
+	background-color: var(--dark-blue);
 }
 
 @media screen and (max-width: 420px){

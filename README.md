@@ -170,7 +170,11 @@ https://www.flaticon.com/search?word=edit&style_id=11
 ## Desenvolver CSS
 
 * Desenvolver para cada componente o layout correspondente do design definido; [OK]
-* Criar animações;
+* Criar animações; [OK]
+
+## Criar Json Server Api [OK]
+
+## Obter Categorias da API [OK]
 
 ## Publicar Página no GitHub Pages
 

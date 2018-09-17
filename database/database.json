@@ -1,0 +1,32 @@
+{
+	"categories" : [
+		"Design",
+		"Imagens",
+		"Ícones",
+		"Paleta de Cores",
+		"Tutoriais e Cursos",
+		"Downloads e Inspirações",
+		"JavaScript",
+		"JQuery",
+		"HTML",
+		"CSS",
+		"Wordpress",
+		"PHP",
+		"Tecnologias Diversas",
+		"Podcasts",
+		"Usabilidade e Pesquisa",
+		"Arquitetura de Informação",
+		"Codificação",
+		"SEO",
+		"UX & UI",
+		"Eventos"
+	],
+	"links" : [
+		{
+			"title" : "Visual Hunt",
+			"link": "http://visualhunt.com",
+			"categorie" : "Design",
+			"description" : "Banco de Imagens"
+		}
+	]
+}

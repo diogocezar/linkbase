@@ -20,6 +20,11 @@
 	color: var(--dark-blue);
 }
 
+#index-list > .container > .boxitem > h3{
+	font-size: 1.2rem;
+	color: var(--dark-blue);
+}
+
 #index-list > .container > .boxitem > a{
 	font-size: 1.2rem;
 	color: var(--light-blue);
@@ -50,6 +55,11 @@
 	text-transform: uppercase;
 	position: relative;
 	text-indent: 10px;
+	transition: 0.15s all linear;
+}
+
+#index-list > .container > .boxitem > .boxcontrols > button:hover{
+	background-color: var(--dark-blue);
 }
 
 #index-list > .container > .boxitem > .boxcontrols > button:before{
