@@ -6,6 +6,9 @@ const url = {
 	'links'     : 'http://localhost:3000/links'
 }
 
+let categories = []
+let links      = []
+
 /**
  * Função que recupera os dados da API por fetch das categorias
  */
@@ -14,7 +17,8 @@ const getCategoriesFromApi = () => {
 		.then((response) => {
 			response.text()
 				.then((result) => {
-					fillCategories(JSON.parse(result))
+					categories = JSON.parse(result)
+					fillCategories()
 				})
 		})
 }
@@ -27,20 +31,20 @@ const getLinksFromApi = () => {
 		.then((response) => {
 			response.text()
 				.then((result) => {
-					fillLinks(JSON.parse(result));
+					links = JSON.parse(result)
+					fillLinks()
 				})
 		})
 }
 
 /**
  * Função para plotar as categorias quando forem carregadas
- * @param {JSON} data
  */
-const fillCategories = (data) => {
+const fillCategories = () => {
 	const $fillCategories = document.querySelector(".fill-categories")
-	data.sort()
-	const categoriesList = data.length ? (
-		data.map((item) => {
+	categories.sort()
+	const categoriesList = categories.length ? (
+		categories.map((item) => {
 			return `<li>${item}</li>`
 		}).join('')
 	) : (

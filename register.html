@@ -73,15 +73,9 @@
 				<form>
 					<input type="text" placeHolder="Título" id="title" />
 					<input type="text" placeHolder="Link" id="link" />
-					<select id="categorie">
-						<option value="-1">Selecione a categoria</option>
-						<option value="1">Categoria</option>
-						<option value="2">Categoria</option>
-						<option value="3">Categoria</option>
-						<option value="4">Categoria</option>
-						<option value="5">Categoria</option>
-					</select>
-					<textarea placeHolder="Descrição"></textarea>
+					<select id="categorie"></select>
+					<textarea placeHolder="Descrição" id="description"></textarea>
+					<div class="error"></div>
 					<button class="btn-save">Salvar</button>
 					<button class="btn-cancel">Cancelar</button>
 				</form>
@@ -96,5 +90,7 @@
 				<p>Professor <a href="https://www.diogocezar.com" target="_blank">Diogo Cezar</a></p>
 			</div>
 		</footer>
+		<!-- Js -->
+		<script src="./js/register.js"></script>
 	</body>
 </html>

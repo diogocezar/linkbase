@@ -118,6 +118,16 @@
 	background-color: var(--dark-blue);
 }
 
+#register-form .error{
+	display:none;
+}
+
+#register-form .error.active{
+	display:block;
+	margin-bottom: var(--spacer-2);
+	color: var(--dark-blue);
+}
+
 @media screen and (max-width: 420px){
 	#register-form > .container > form > button{
 		min-width: 100%;
