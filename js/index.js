@@ -53,4 +53,31 @@ const fillCategories = () => {
 	$fillCategories.innerHTML = categoriesList
 }
 
+/**
+ * Função para preencher os links dinamicamente
+ */
+
+const fillLinks = () => {
+	console.log(links)
+	const $fillLinks = document.querySelector('.fill-links')
+	const linksList = links.length ? (
+		links.map((item) => {
+			return `<div class="boxitem">
+						<h2>${item.title}</h2>
+						<h3>${item.categorie}</h3>
+						<a href="${item.link}">${item.link}</a>
+						<p>${item.description}</p>
+						<div class="boxcontrols">
+							<button class="btn-edit">Editar</button>
+							<button class="btn-delete">Excluir</button>
+						</div>
+					</div>`;
+		})
+	) : (
+		`<h1>Não existem links!</h1>`
+	)
+	$fillLinks.innerHTML = linksList
+}
+
 getCategoriesFromApi()
+getLinksFromApi()

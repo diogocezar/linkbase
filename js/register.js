@@ -7,6 +7,23 @@ const url = {
 }
 
 /**
+ * Função para salvar o link no banco de dados
+ */
+const saveLinkToApi = (link) => {
+	fetch(url.links, {
+		method: "post",
+		body: JSON.stringify(link),
+		headers: {
+			'Accept': 'application/json',
+			'Content-Type': 'application/json'
+		}
+	}).then((response) => {
+		console.log(response)
+		//window.location = "index.html"
+	})
+}
+
+/**
  * Salvar dados para a api
  */
 
@@ -30,6 +47,7 @@ const save = (e) => {
 			'description': $description
 		}
 		console.log(newLink)
+		saveLinkToApi(newLink)
 	}
 	else{
 		$error.innerHTML = "Preencha corretamente os campos antes de enviar!"

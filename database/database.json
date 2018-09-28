@@ -1,15 +1,5 @@
 {
 	"categories" : [
-		"Design",
-		"Imagens",
-		"Ícones",
-		"Paleta de Cores",
-		"Tutoriais e Cursos",
-		"Downloads e Inspirações",
-		"JavaScript",
-		"JQuery",
-		"HTML",
-		"CSS",
 		"Wordpress",
 		"PHP",
 		"Tecnologias Diversas",
@@ -27,6 +17,24 @@
 			"link": "http://visualhunt.com",
 			"categorie" : "Design",
 			"description" : "Banco de Imagens"
+		},
+		{
+			"title": "Visual Hunt",
+			"link": "http://visualhunt.com",
+			"categorie": "Design",
+			"description": "Banco de Imagens"
+		},
+		{
+			"title": "Visual Hunt",
+			"link": "http://visualhunt.com",
+			"categorie": "Design",
+			"description": "Banco de Imagens"
+		},
+		{
+			"title": "Visual Hunt",
+			"link": "http://visualhunt.com",
+			"categorie": "Design",
+			"description": "Banco de Imagens"
 		}
 	]
 }
